@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Here we are taking of all the back of databases present in our mysql
+
+#This is the directory where I am create my backup directory
 BACKUP_DIR=/home/ubuntu/
 mkdir -p $BACKUP_DIR/db_backups/$(date +"%d-%m-%Y")
 mysql_user=root
